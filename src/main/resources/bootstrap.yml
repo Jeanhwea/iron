@@ -1,16 +1,6 @@
-spring:
-  application:
-    name: iron1000106
-  profiles:
-    active: dev
-  cloud:
-    config:
-      name: common,spring,logging,ora11g,iron
-      profile: dev
-      uri: ${PEIZHI_URL:http://mes106.mti.avic.com/peizhi}
-  output:
-    ansi:
-      enabled: always
-
-server:
-  port: 9090
+eureka:
+  client:
+    register-with-eureka: false
+    fetchRegistry: false
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
