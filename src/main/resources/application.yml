@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    platform: mysql
+    username: root
+    password: root
+    url: jdbc:mysql://minix.jeanhwea.io:3306/database?useUnicode=true&characterEncoding=utf-8&useSSL=false
+  output:
+    ansi:
+      enabled: always
+
+
+server:
+  port: 9090
