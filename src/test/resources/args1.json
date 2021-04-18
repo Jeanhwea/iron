@@ -1,0 +1,32 @@
+{
+  "argn": 4,
+  "argv": [
+    {
+      "type": "time",
+      "format": "yy"
+    },
+    {
+      "type": "growth",
+      "current": 50,
+      "start": 1,
+      "step": 1,
+      "end": 10,
+      "format": "%04d"
+    },
+    {
+      "type": "enum",
+      "values": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "type": "growth",
+      "current": 50,
+      "start": 1,
+      "step": 1,
+      "end": 100,
+      "format": "%04d"
+    }
+  ]
+}
