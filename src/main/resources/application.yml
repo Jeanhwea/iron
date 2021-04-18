@@ -8,6 +8,13 @@ spring:
   #     name: common,spring,logging,ora11g,iron
   #     profile: dev
   #     uri: ${PEIZHI_URL:http://mes106.mti.avic.com/peizhi}
+  cloud:
+    discovery:
+      enabled: false
+    config:
+      discovery:
+        enabled: false
+      enabled: false
   output:
     ansi:
       enabled: always
